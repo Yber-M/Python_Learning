@@ -8,9 +8,10 @@ public class bucle {
         // * Crear un objeto Scanner para leer la entrada del usuario
         Scanner sc = new Scanner(System.in);
 
-        // * Declarar variables para almacenar el nombre, cantidad de repeticiones y un contador
-        String name;
-        int veces, cont = 1;
+        // * Declarar variables para almacenar el nombre, cantidad de repeticiones
+        String name; // ? Variable para almacenar el nombre
+        int veces; // ? Variable para que el usuario indique el n° de veces que quiere que se repita su nombre
+        int cont = 1; // ? Variable contador para poder finalizar el bucle
 
         // * Solicitar al usuario que ingrese su nombre
         System.out.println("¿Cuál es tu nombre?");
@@ -20,14 +21,15 @@ public class bucle {
         System.out.println("¿Cuántas veces quieres que se repita tu nombre en pantalla?");
         veces = sc.nextInt();
 
-        // * Usar un bucle while para imprimir el nombre la cantidad de veces especificada
+        // * Usar un bucle while para imprimir el nombre la cantidad de veces
+        // especificada
         while (cont <= veces) {
             System.out.print("N° " + cont + " - "); // ? Mostrar el número de repetición
             System.out.println(name); // ? Mostrar el nombre
             cont++; // ? Incrementar el contador
         }
 
-        // * Cerrar el objeto Scanner para liberar los recursos
+        // ? Cerrar el objeto Scanner para liberar los recursos
         sc.close();
     }
 }
