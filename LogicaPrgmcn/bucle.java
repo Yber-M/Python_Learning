@@ -3,7 +3,7 @@ package LogicaPrgmcn;
 // ? Importamos la clase Scanner para leer la entrada del usuario desde la consola
 import java.util.Scanner;
 
-public class bucle {
+public class Bucle {
     public static void main(String[] args) {
         // * Crear un objeto Scanner para leer la entrada del usuario
         Scanner sc = new Scanner(System.in);
