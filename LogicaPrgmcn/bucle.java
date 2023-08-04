@@ -11,7 +11,7 @@ public class bucle {
         System.out.println("¿Cuál es tu nombre?");
         name = sc.nextLine();
 
-        System.out.println("¿Cuántas veces quieres que se repita?");
+        System.out.println("¿Cuántas veces quieres que se repita tu nombre en pantalla?");
         veces = sc.nextInt();
 
         while (cont <= veces) {
