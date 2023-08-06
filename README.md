@@ -3,5 +3,5 @@
 ###### Extensiones & Herramientas Usadas:
 
 ###### * Excalidraw
-* Raptor
-* IDE Pycharm
+###### * Raptor
+###### * IDE Pycharm
