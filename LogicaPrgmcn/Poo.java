@@ -1,4 +1,4 @@
-// * Calcular el área de un terreno y determinar el costo de venta dependiendo de su tamaño
+// * Calcular el área de un terreno RECTANGULAR y determinar el costo de venta según su ÁREA * el costo del M2
 // ? BASE = 15m & ALTURA = 35m
 // ? Metro cuadrado = $2500
 // ? FORMULA: Área = Base x Altura
