@@ -7,10 +7,8 @@ import java.util.Scanner;
 public class OperadoresLogicos {
     // * Declaramos globalmente la clase Scanner
     private static Scanner sc = new Scanner(System.in);
-
     public static void main(String[] args) {
         OperadoresLogicos OprdLgcs = new OperadoresLogicos();
-
 
         char condi = 'S';
         do {
@@ -47,6 +45,7 @@ public class OperadoresLogicos {
         OperadoresLogicos.sc.close();
     }
 
+    // * Método para verificar el do - while en caso de que no se ingrese una opción correcta
     public char VerficarBucle() {
         // * Definimos las Variables
         char Condicional = 'S', Verificar;
@@ -72,6 +71,7 @@ public class OperadoresLogicos {
         return Condicional;
     }
 
+    // * Método para verificar el switch (MENSAJE MÁS PERSONALIZADO)
     public char VerficarSwitch() {
         // * Definimos las Variables
         char Condicional = 'S', Verificar;
@@ -97,6 +97,7 @@ public class OperadoresLogicos {
         return Condicional;
     }
 
+    // * Método para calcular el área del rectangulo [A = B * A]
     public double ClclrAreaRectangulo() {
         double base, altura, area;
 
@@ -106,7 +107,7 @@ public class OperadoresLogicos {
         System.out.print("Altura(m): ");
         altura = sc.nextDouble();
 
-        // * FORMULAR PARA CALCULAR EL ÁREA DEL RECTÁNGULO
+        // *  Aplicando la formular del RECTÁNGULO
         area = base * altura;
 
         System.out.println("\n- - - - - - RESULTADO - - - - - -");
@@ -117,6 +118,7 @@ public class OperadoresLogicos {
         return area;
     }
 
+    // * Método para calcular el área del triángulo [A = B * A / 2]
     public double ClclrAreaTriangulo() {
         double base, altura, area;
 
@@ -126,7 +128,7 @@ public class OperadoresLogicos {
         System.out.print("Altura(m): ");
         altura = sc.nextDouble();
 
-        // * FORMULAR PARA CALCULAR EL AREA DEL TRIANGULO
+        // ? Aplicando la formular del TRIANGULO
         area = (base * altura) / 2;
 
         System.out.println("\n- - - - - - RESULTADO - - - - - -");
